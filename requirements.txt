@@ -1,0 +1,13 @@
+opencv-python
+numpy
+scikit-learn
+scipy
+tqdm
+torch
+torchvision
+onnxruntime  # optional: install when using ONNXRuntime
+torchsummary
+einops  # for some transformer/UNet variants
+timm  # for layers like SqueezeExcite used in SSCNet and others
+# mmcv  # optional: some models can use mmcv.cnn.ConvModule; install a version matching your PyTorch/CUDA (see official docs)
+ultralytics>=8.0.0  # YOLOv8 for detection
